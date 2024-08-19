@@ -4,13 +4,13 @@ class Square:
     """Define square"""
 
     def __init__(self, size=0):
-        """constructor
+        """Constructor.
 
         Args:
             size: Length of side of square
 
         Rasies:
-            TypeError:if size is not an integer.
+            TypeError: if size is not an integer.
             ValueError: if size is less than 0.
         """
         if not isinstance(size, int):
